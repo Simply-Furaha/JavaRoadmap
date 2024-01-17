@@ -1,17 +1,30 @@
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
+//Java Operation on different Arithmetic Operators
 public class Main {
+    //Main method
     public static void main(String[] args) {
-        // Press Alt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
 
-        // Press Shift+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+    final float pie = 3.14f;
+    int radius = 5;
+    float area = pie * radius * radius;
 
-            // Press Shift+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
+    int a = 10;
+    int b = 20;
+    int result = a + b;
+    int div = a / b;
+    int mod = a % b;
+    int sub = a - b;
+    int mul = a * b;
+
+    float c = 10.5f;
+    float d = 20.5f;
+    float w = d + c*2/3%2;
+
+    System.out.println("Value of w is: " + w);
+    System.out.println("Addition is: " + result);
+    System.out.println("Division is: " + div);
+    System.out.println("Modulus is: " + mod);
+    System.out.println("Subtraction is: " + sub);
+    System.out.println("Multiplication is: " + mul);
+    System.out.println("Area of circle is: " + area);
         }
     }
-}
