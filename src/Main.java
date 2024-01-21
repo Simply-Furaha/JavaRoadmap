@@ -4,10 +4,11 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
         //declare an array of integers
+        //creating an instance
         int Nums[]= new int[10];
         Nums[0] = 1;
          Nums[1] = 2;
-            Nums[2] = 3;
+           Nums[2] = 3;
                 Nums[3] = 4;
                    Nums[4] = 5;
                      Nums[5] = 6;
@@ -23,6 +24,8 @@ public class Main {
         System.out.println(Arrays.toString(Num2));
         //print the length of the arrays
         System.out.println(Num2.length);
+        //For printing the length
+    
         System.out.println(Nums.length);
     }
 }
