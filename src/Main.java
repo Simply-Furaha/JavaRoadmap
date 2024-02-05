@@ -13,7 +13,7 @@ public class Main {
                    Nums[4] = 5;
                      Nums[5] = 6;
                         Nums[6] = 7;
-                            Nums[7] = 8;
+                             Nums[7] = 8;
        //print the array
         System.out.println(Arrays.toString(Nums));
         //Declare and initialize another array
