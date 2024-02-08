@@ -14,7 +14,7 @@ public class Main {
                      Nums[5] = 6;
                         Nums[6] = 7;
                              Nums[7] = 8;
-       //print the array
+       //print the array to the console
         System.out.println(Arrays.toString(Nums));
         //Declare and initialize another array
         int Num2[]= {10,2,5,4,9,6,7,8,1,3};
